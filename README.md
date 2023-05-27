@@ -1,2 +1,1 @@
-# TesePaula
- ChatBot para Tese de Paula Cotrim de Abrantes
+Arquivo de texte do chatbot com uso do TKInter nativo do Python
