@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Work directory
-WORKDIR /main
+WORKDIR /tesepaula
 
 # Copy requirements and install dependencies
 COPY requirements.txt requirements.txt
@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8080
 
 # Command to run on server
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "main:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "tesepaula:app"]
