@@ -11,7 +11,7 @@ def print_hi(name):
     global bot_output
     global user_input
 
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    #print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     root = tk.Tk()
     root.geometry("500x300")
     user_input = tk.Entry(root)
